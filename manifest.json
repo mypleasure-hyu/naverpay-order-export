@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "네이버페이 구매내역 엑셀 추출",
+  "version": "0.4.0",
+  "description": "네이버페이 주문내역을 기간별로 조회해 일자·금액·상품명을 엑셀로 저장합니다.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://order.pay.naver.com/*", "https://pay.naver.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "구매내역 엑셀 추출"
+  }
+}
